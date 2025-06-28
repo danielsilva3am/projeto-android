@@ -1,0 +1,164 @@
+@charset 'UTF-8';
+@font-face {
+    font-family: 'Pokemon-font';
+    src: url('PocketMonk-15ze.ttf') format('truetype');
+    /*font-weight: normal;
+    font-style: normal;*/
+
+}
+
+body{
+    /*background-color: #FFE63F;*/
+    background-color: #FFE63F;
+}
+
+header{
+    /* [ margin | border | padding | content <] */
+    margin: 0px 0px 0px 0px; /*margem externa*/
+    outline: 10px  solid white; /*borda externa*/
+    border: 0px solid white; /*borda interna*/
+    padding: 0px; 
+
+    text-align: center;
+    background-color: white;
+}
+header > h1{
+    
+    font-family: 'Pokemon-font', Courier, monospace;
+
+    color: black;
+    
+}
+img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    border: 0px;
+    height: 250px;
+}
+header > nav{
+    margin: 0px 0px 0px 0px;
+    outline: 10px solid #BC9B5D;
+   
+    /*border: 10px solid #BC9B5D;
+    border: 0px;
+    padding: 0px; 
+    */
+    padding: 10px; /*margem interna*/
+    background-color: #BC9B5D;
+    width: auto;
+    
+
+}
+a{
+  text-decoration: none;  
+  font-weight: bold;
+  color:#FFE100;
+}
+
+section#base{
+    margin: 0px auto 0px auto; /*margem externa*/
+    outline: 9px  solid #F5F0E5; /*borda externa*/
+    width: 60%; /*largura da caixa*/
+    padding: 50px; /*margem interna*/
+
+    text-align: justify;
+    background-color: #F5F0E5;
+}
+section#base2{
+    margin: 0px auto 0px auto; /*margem externa*/
+    outline: 9px  solid #F5F0E5; /*borda externa*/
+    width: 60%; /*largura da caixa*/
+    padding: 50px; /*margem interna*/
+
+    text-align: justify;
+    background-color: #F5F0E5;
+}
+
+footer{
+    margin: 0px 0px 0px 0px; /*margem externa*/
+    outline: 10px  solid white; /*borda externa*/
+    width: auto; /*largura da caixa*/
+    padding: 10px; /*margem interna*/
+
+    text-align: justify;
+    background-color: white;
+}
+article{
+    display: block;
+    margin: 0 auto;
+    background-image: linear-gradient(#BC9B5D, #ebd8b4);
+    outline: 9px solid #F5F0E5; /*borda externa*/
+    width: 60%; /*largura da caixa*/
+    padding: 50px; /*margem interna*/
+    text-align: center;
+    color: white;
+    
+    
+}
+.sub2{
+    /*padding: 0px;*/
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    
+    /*border: 2px solid red;*/
+    background-color: #ebd8b4;
+    border-radius: 5px;
+    color:black;
+    
+}
+section#base > h1{
+    color: black;
+    background-color: rgb(188, 155, 93);
+}
+section#base > h2{
+    color: black;
+    /*background-color: rgb(188, 155, 93);*/
+    background-image: 
+    linear-gradient(to left, #ebd8b4, rgba(188, 155, 93,1));
+
+}
+section.sub2 > h2{
+    color: black;
+    background-color: #BC9B5D;
+    margin: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+}
+
+section.sub2 > p{
+    margin: 25px 50px;
+    
+}
+.youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+div.container {
+    text-align: center;
+    column-count: 2;
+    padding-left:30%;
+    border: 3px solid #d6bb88;
+    background-color: #d6bb88;
+}
+  
+ul.pontos {
+    display: inline-block;
+    text-align: left;
+}
+header > h1{
+    font-size: 40px;
+}
+h1, h2 {
+    font-weight: bolder;
+}
